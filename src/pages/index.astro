@@ -1,6 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { getEntry } from "astro:content";
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc";
+
+dayjs.extend(utc);
+
+const lastModified = dayjs().utc().format("YYYY年MM月DD日");
 
 const resume = await getEntry("posts", "resume");
 
@@ -9,14 +15,14 @@ if (!resume) {
 }
 
 const { Content } = await resume.render();
-const { title, editDate } = resume.data;
+const { title } = resume.data;
 ---
 
 <Layout title={title}>
   <div class="max-w-3xl mx-auto">
     <h1 class="text-3xl font-bold mb-6">{title}</h1>
-    <p class="text-gray-600 mb-6 text-right">
-      {editDate.toLocaleDateString("ja-JP")}
+    <p class="text-gray-600 mb-6 text-right text-sm">
+      更新日：{lastModified}
     </p>
     <div class="prose max-w-none">
       <Content />

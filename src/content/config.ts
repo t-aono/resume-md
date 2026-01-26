@@ -5,7 +5,6 @@ const postCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    editDate: z.date(),
   }),
 });
 
