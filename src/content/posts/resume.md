@@ -5,9 +5,11 @@ description: これまでの経験
 
 ## プロフィール
 
-フリーランスのエンジニアとしてWebアプリ開発に携わっています。エンジニア歴としては8年で、Webシステムや特定の業務向けのWebサービスの開発チームにて働いてきました。
+エンジニア歴8年、業務系からSaaSまで幅広い業界のWebアプリ開発に携わり、設計・実装を一貫して担当してきました。
 
-フロントエンドからバックエンドまで幅広く対応できるエンジニアを目指しています。少人数体制で柔軟に開発を進めながら、裁量を持って新しい技術にも取り組める環境を求めています。
+元々は正社員として勤務していましたが、新しい技術を実務で活かせる環境に魅力を感じており、自律的に集中して取り組める働き方が合っていると思い、フリーランスへ転向しました。
+
+Next.jsやSvelteKitなどのフルスタックWebアプリFWを活用した開発が得意で、要件整理・UI構築・API設計・DB設計まで一貫して担当した実績があります。少人数体制で裁量を持ちながら、新しい技術にも積極的に取り組める環境を求めています。
 
 ## 経歴
 
@@ -17,18 +19,17 @@ description: これまでの経験
 概要
 
 - サービス業・製造業・海事産業など多様な業界のWebアプリ開発に従事、実装・設計を主に担当
-- Next.js、SvelteKitを使ったWebアプリ開発、FirebaseやAngularを使ったサーバーレスなSPA開発
+- SSRベース・SPAなど多様な構成のWebアプリ開発を中心に担当
 - リモートと出社を組み合わせながら柔軟に稼働
 
 役割
 
-- 試作版（プロトタイプ）の作成や、課題解決に向けた機能追加・不具合修正を担当
-- ライブラリやフレームワーク、外部サービスの調査および導入を実施
+- PO・PMの要件をもとに、プロトタイプ構築から機能追加・改善まで実装を担当し、技術選定にも携わる                          
+- API設計・DB設計から実装まで一貫して担当                         
 
 使用技術
 
-- TypeScript, Next.js, SvelteKit, React, Angular, Vue.js, Node.js, Laravel
-- Cloud RUN, Firebase, Cloud Functions, MySQL, PostgreSQL
+- TypeScript, Next.js, SvelteKit, Angular, Vue.js, Node.js, Laravel, Firebase, Cloud Run
 
 </details>
 
@@ -48,8 +49,7 @@ description: これまでの経験
 
 使用技術
 
-- PHP, Laravel, JavaScript, jQuery, Vue.js, HTML, CSS
-- MySQL
+- PHP, Laravel, JavaScript, Vue.js, jQuery
 
 </details>
 
@@ -68,21 +68,13 @@ description: これまでの経験
 使用技術
 
 - Java, PHP, JavaScript, VBA
-- MySQL
 
 </details>
 
 <details>
-<summary>2011 ~ 2016：営業職 @ 製薬会社にて勤務、鹿児島や福岡のエリアを担当</summary>
+<summary>2011 ~ 2016：異業種経験（営業職）</summary>
 
-概要
-
-- 病院・クリニック向けに自社製品の医薬品を営業
-
-役割
-
-- 既存顧客との関係構築、新規取引先の開拓
-- 自社製品の販売促進、説明会実施
+製薬会社にて病院・クリニック向け医薬品の営業職に従事。
 
 </details>
 
@@ -97,118 +89,129 @@ description: これまでの経験
 - 契約形態：業務委託 / J 社（自治体職員向けメディアの運営、民間企業による自治体活動支援など）
 - チーム構成：フロントエンドエンジニア：1名、バックエンド・インフラエンジニア：2名
 - 担当業務：フロントエンドの設計・実装、技術調査、検証
+- 成果：フロントエンド1名としてフロント側の開発をリードし、目標期間内にWebアプリの構築を完了
 - 使用技術：TypeScript, Next.js, SvelteKit, TailwindCSS, Sass, Cloud RUN
 
 </details>
 
 <details open>
-<summary>1-2: 家電製造業向け部品管理システム</summary>
-
-- 期間：2025/01 ~ 2025/12（1年）
-- 契約形態：業務委託 / R 社（IT コンサルティング、オフィスネットワーク構築/運用、システム開発事業）
-- チーム構成：フルスタックエンジニア：5名
-- 担当業務：画面構築、API実装、画面設計、DB設計、仕様管理の資料作成
-- 使用技術：TypeScript, Next.js, DrizzleORM, MySQL, Docker
-
-</details>
-
-<details open>
-<summary>1-3: 施策進捗管理システム</summary>
+<summary>1-2: 施策進捗管理システム</summary>
 
 - 期間：2022/03 ~ 2024/11（2年10ヶ月）
 - 契約形態：業務委託 / L 社（戦略コンサルティング・システム開発）
 - チーム構成：PM兼エンジニア：1名、エンジニア：2名
 - 担当業務：SPA/PWA構築、サーバーレス環境での開発、バッチ処理実装、データモデル設計、技術調査、外部サービス連携（チャットツール、ストレージ、会計システムなど）
+- 成果：細かな要望対応や既存バグの改修を通じてシステムのブラッシュアップに貢献
 - 使用技術：TypeScript, Angular, RxJS, Firebase, Node.js, Sass
 
 </details>
 
 <details>
-<summary>1-4: 海事産業向け 勤怠管理サービス</summary>
-
-- 期間：2022/12 ~ 2024/01（1年2ヶ月）
-- 契約形態：業務委託 / Z 社（海事産業向け SaaS）
-- チーム構成：PM兼エンジニア：1名、FEエンジニア：1名、BEエンジニア：1名、FE&BEエンジニア：2名
-- 担当業務：UI構築、FE/BEの繋ぎ込み、API実装、DB設計、開発ツール導入、ビジネス要件にもとづく仕様提案
-- 使用技術：Vue.js, Vuex ORM, TypeScript, Laravel, MySQL, Buefy, Sass, Docker
-
-</details>
-
-<details>
-<summary>1-5: 駐車場機器メーカー向けWebシステム</summary>
+<summary>1-3: 駐車場機器メーカー向けWebシステム</summary>
 
 - 期間：2020/05 ~ 2022/03（1年11ヶ月）
 - 雇用形態：正社員 / DreamLink（Web開発）
 - チーム構成：システムエンジニア 2 名（社長＋自分）
 - 担当業務：駐車場機器と連携するWebシステム開発、幅広い工程を担当
+- 成果：クライアントの要望をシステムに反映し、業務効率化に貢献
 - 使用技術：PHP, MySQL, Linux, Apache, JavaScript, jQuery, React
 
 </details>
 
 <details>
-<summary>1-6: 知的財産管理システム</summary>
+<summary>1-4: 知的財産管理システム</summary>
 
 - 期間：2019/05 ~ 2020/04（1年）
 - 雇用形態：正社員 / エージェントグロー（SES）
 - チーム構成：システムエンジニア：4名
 - 担当業務：設計・実装・テスト、設計書／テスト仕様書などドキュメント作成
+- 成果：システムの品質向上に寄与
 - 使用技術：PHP, MySQL, Linux, Apache, JavaScript
 
 </details>
 
 <details>
-<summary>1-7: SIerの業務系システム</summary>
+<summary>1-5: SIerの業務系システム</summary>
 
 - 期間：2017/11 ~ 2019/04（1年6ヶ月）
 - 雇用形態：正社員 / メディアファイブ（SI/SES）
 - チーム構成：PM兼エンジニア：1名、エンジニア：3名
 - 担当業務：設計・実装・テスト、設計書／テスト仕様書などドキュメント作成
+- 成果：システムの品質向上に寄与
 - 使用技術：Java, VBA, JavaFX, JUnit, SQLServer
 
 </details>
 
 ### 2. 短期案件
 
+<details open>
+<summary>2-1: 家電製造業向け部品管理システム</summary>
+
+- 期間：2025/01 ~ 2025/12（1年）
+- 契約形態：業務委託 / R 社（IT コンサルティング、オフィスネットワーク構築/運用、システム開発事業）
+- チーム構成：フルスタックエンジニア：5名
+- 担当業務：画面構築、API実装、画面設計、DB設計、仕様管理の資料作成
+- 成果：クライアントMTGでヒアリングした業務内容をシステムに反映し、「使いやすい」という評価を獲得
+- 使用技術：TypeScript, Next.js, DrizzleORM, MySQL, Docker
+
+</details>
+
+<details open>
+<summary>2-2: 海事産業向け 勤怠管理サービス</summary>
+
+- 期間：2022/12 ~ 2024/01（1年2ヶ月）
+- 契約形態：業務委託 / Z 社（海事産業向け SaaS）
+- チーム構成：PM兼エンジニア：1名、FEエンジニア：1名、BEエンジニア：1名、FE&BEエンジニア：2名
+- 担当業務：UI構築、FE/BEの繋ぎ込み、API実装、DB設計、開発ツール導入、ビジネス要件にもとづく仕様提案
+- 成果：Excelで管理していた業務をシステム化し、ユーザーの業務効率化に貢献
+- 使用技術：Vue.js, Vuex ORM, TypeScript, Laravel, MySQL, Buefy, Sass, Docker
+
+</details>
+
 <details>
-<summary>2-1: 製造業向け業務支援システム</summary>
+<summary>2-3: 製造業向け業務支援システム</summary>
 
 - 期間：2024/08 ~ 2024/10（3ヶ月）
 - 契約形態：業務委託 / G社（DX事業）
 - チーム構成：PM：1名、TL：1名、BEエンジニア：1名、FEエンジニア：1名、FSエンジニア：1名
 - 担当業務：クライアント要望に基づくUIの検討・構築、表形式データ入力ライブラリの調査・選定
+- 成果：動作するプロトタイプを構築し、開発の方向性を具体化
 - 使用技術：TypeScript, React, Vite, Vitest, Figma, Docker
 
 </details>
 
 <details>
-<summary>2-2: カーシェアサイト</summary>
+<summary>2-4: カーシェアサイト</summary>
 
 - 期間：2022/06 ~ 2022/11（6 ヶ月）
 - 契約形態：業務委託 / A 社（DX 関連事業）
 - チーム構成：PM：1 名、エンジニア：5 名
 - 担当業務：UI / API の検討・設計・実装
+- 成果：機能追加を通じて開発マネージャーの要望に対応
 - 使用技術：TypeScript, Next.js, MUI, AWS(Amplify, Lambda), GraphQL, Python, Docker, Figma
 
 </details>
 
 <details>
-<summary>2-3: 一時保育の検索・予約サービス</summary>
+<summary>2-5: 一時保育の検索・予約サービス</summary>
 
 - 期間：2021/11 ~ 2022/05（7 ヶ月）
 - 契約形態：業務委託 / G 社（スタートアップスタジオ・DX スタジオ）
 - チーム構成：PM 兼エンジニア：1 名、エンジニア：3 名、デザイナー：1 名
 - 担当業務：MVP UI の構築、API 実装
+- 成果：機能追加を通じてクライアントの要望に対応
 - 使用技術：Laravel, Vue.js, Figma, MySQL, Docker
 
 </details>
 
 <details>
-<summary>2-4: ストックフォトサービス</summary>
+<summary>2-6: ストックフォトサービス</summary>
 
 - 期間：2021/05 ~ 2021/10（6 ヶ月）
 - 契約形態：業務委託 / K 社（マーケティング支援）
 - チーム構成：PO 兼 PM：1 名、エンジニア：3 名
 - 担当業務：仕様検討、機能追加・改善
+- 成果：機能・画面追加を通じてプロダクトマネージャーの要望に対応
 - 使用技術：Vue.js, Sass, Laravel, MySQL, Docker
 
 </details>
@@ -221,4 +224,4 @@ description: これまでの経験
 | フレームワーク     | Next.js(3), SvelteKit(1), Astro(1), Remix(1), Laravel(3)                                   |
 | ライブラリ         | React(4), Vue.js(3), Angular(3), TailwindCSS(3)                                            |
 | インフラ・クラウド | Google Cloud[Cloud Run, Cloud Functions, Firebase], AWS[Amplify, Lambda], Docker,Terraform |
-| ツール・サービス   | Antigravity, GitHub, Slack, Notion, Figma                                                  |
+| ツール・サービス   | GitHub, Slack, Notion, Figma, Claude Code, Google Antigravity, Windsurf                    |
