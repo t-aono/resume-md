@@ -40,3 +40,23 @@
     margin-bottom: 0;
   }
 }
+
+@media print {
+  footer,
+  .no-print {
+    display: none;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  .prose details {
+    overflow: visible;
+    break-inside: avoid;
+  }
+
+  .prose summary {
+    cursor: default;
+  }
+}
