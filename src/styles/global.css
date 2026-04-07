@@ -3,23 +3,40 @@
 
 @layer components {
   .prose details {
-    @apply border border-gray-200 rounded-lg my-4 bg-white overflow-hidden shadow-sm;
+    @apply my-2 overflow-hidden;
   }
 
   .prose summary {
-    @apply cursor-pointer font-bold px-4 py-3 select-none text-gray-700 hover:bg-gray-50 transition-colors duration-200 flex items-center bg-gray-50/50;
+    @apply cursor-pointer font-bold px-2 py-1 select-none text-gray-700 transition-colors duration-200 flex items-center;
+    list-style: none;
   }
 
-  .prose details[open] summary {
-    @apply border-b border-gray-200 mb-4 bg-gray-50;
+  .prose summary::-webkit-details-marker {
+    display: none;
   }
 
+  .prose summary::before {
+    content: "▶︎";
+    @apply mr-2 text-sm;
+  }
+
+  .prose details[open] summary::before {
+    content: "▼";
+  }
+  
   /* コンテンツ部分の余白 */
   .prose details > *:not(summary) {
-    @apply mx-4;
+    @apply mx-2;
   }
 
   .prose details > *:not(summary):last-child {
-    @apply mb-4;
+    @apply mb-2;
+  }
+}
+
+@layer utilities {
+  .prose ul {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }

@@ -29,3 +29,46 @@ const { title } = resume.data;
     </div>
   </div>
 </Layout>
+
+<script>
+  // デフォルトで開く details の番号（summaryの項目番号と一致）
+  const defaultOpenIndices: number[] = [1, 2, 3, 4];
+
+  const details = Array.from(
+    document.querySelectorAll<HTMLDetailsElement>(".prose details"),
+  );
+
+  // 初期状態を設定
+  details.forEach((el) => {
+    const index = Number(el.dataset.index);
+    el.open = defaultOpenIndices.includes(index);
+  });
+
+  // 「プロジェクト実績」見出しの直後にボタンを挿入
+  const heading = document.getElementById("projects");
+
+  if (heading) {
+    const btnWrap = document.createElement("div");
+    btnWrap.className = "flex gap-2 justify-end";
+
+    const btnStyle = "text-sm px-3 py-1 underline cursor-pointer";
+
+    const openAll = document.createElement("button");
+    openAll.textContent = "すべて開く";
+    openAll.className = btnStyle;
+    openAll.addEventListener("click", () =>
+      details.forEach((el) => (el.open = true)),
+    );
+
+    const closeAll = document.createElement("button");
+    closeAll.textContent = "すべて閉じる";
+    closeAll.className = btnStyle;
+    closeAll.addEventListener("click", () =>
+      details.forEach((el) => (el.open = false)),
+    );
+
+    btnWrap.appendChild(openAll);
+    btnWrap.appendChild(closeAll);
+    heading.insertAdjacentElement("afterend", btnWrap);
+  }
+</script>
