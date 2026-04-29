@@ -59,4 +59,13 @@
   .prose summary {
     cursor: default;
   }
+
+  table td:first-child,
+  table th:first-child {
+    white-space: nowrap;
+  }
+
+  .prose {
+    line-height: 1.5;
+  }
 }

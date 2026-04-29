@@ -50,6 +50,7 @@ try {
     path: OUTPUT_PATH,
     format: 'A4',
     printBackground: true,
+    scale: 0.85,
     margin: { top: '15mm', bottom: '15mm', left: '15mm', right: '15mm' },
   });
 
